@@ -1,0 +1,66 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 414px;
+    display: grid;
+    gap: 16px;
+}
+
+/* Estilização do Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #ffcc00;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Seção de Mensagens */
+.mensagens {
+    background: #ff99cc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Seção das Aulas */
+.aulas {
+    background: #99ff99;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.aula {
+    background: white;
+    margin: 8px 0;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Seção de Notícias */
+.noticias {
+    background: #cccccc;
+    padding: 128px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.paginacao {
+    margin-top: 8px;
+}
